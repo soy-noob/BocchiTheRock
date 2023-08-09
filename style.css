@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#changeBtn {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 100px;
+    height: 35px;
+}
+
+.charColorLine {
+    transition: ease-in-out 0.5s;
+    position: absolute;
+    left: 0;
+    width: 0%;
+    top: 45%;
+    height: 75px;
+}
+
+.charTextArea {
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    width: 30%;
+    height: 50%;
+}
+
+.charTextArea p {
+    font-size: 100%;
+    line-height: 25px;
+    color: white;
+}
+
+.charMainImg {
+    transition: ease-in-out 1s;
+    opacity: 0%;
+    position: absolute;
+    left: 45%;
+    bottom: -10%;
+}
+
+.charMainImg img {
+    width: 304.5px;
+    height: 747px;
+}
+
+.colorBox {
+    transition: ease-in-out 0.5s;
+
+}
+
+.charNameArea {
+    position: absolute;
+    top: 0%;
+    left: 150px;
+    width: 500px;
+    height: 100%;
+}
+
+.charNameArea img {
+    position: absolute;
+    scale: 0.5;
+    bottom: 0%;
+    right: 20%;
+}
+
+.charProfileArea {
+    position: absolute;
+    left: 15%;
+    top: 44%;
+    width: 30%;
+    height: 50%;
+}
+
+.charProfileArea img {
+    width: 70%;
+    height: 70%;
+}
+
+.dividingLine {
+    position: absolute;
+    left: 15%;
+    top: 68%;
+    width: 30%;
+    height: 0.1%;
+    background-color: rgb(138, 138, 138);
+}
+
+.shadow {
+    transition: 0.5s;
+    position: absolute;
+    top: 24%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.pageLogo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 380px;
+    height: 100px;
+}
+
+.pageLogo img {
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    scale: 80%;
+}
+
+.rollName {
+    position: absolute;
+    width: 180px;
+    height: 22px;
+}
+
+.rollName img {
+    opacity: 0;
+    width: auto;
+    height: 22px;
+}
+
+.rollNames {
+    display: flex;
+    position: absolute;
+    top: -21.5px;
+    width: 100%;
+    height: 22px;
+}
+
+.bg img {
+    transition: 0.5s;
+    opacity: 0;
+    bottom: -100px;
+    position: relative;
+    scale: 80%;
+}
+
+.catchcopy {
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    width: 300px;
+}
+
+.catchcopy img {
+    opacity: 0;
+}
+
+.onpu {
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    width: 350px;
+    height: 600px;
+}
+
+#onpu_1 {
+    transition: ease-in-out 1.5s;
+    opacity: 1;
+    transform: rotate(0deg);
+    width: 350px;
+    height: auto;
+}
+
+#onpu_2 {
+    position: absolute;
+    right: 1200px;
+    top: 300px;
+    transition: ease-in-out 1.5s;
+    opacity: 0.5;
+    transform: rotate(5deg);
+    width: 250px;
+    height: auto;
+}
+
+
+/* #ikuyoColorBox{
+    position: absolute;
+    left: 32.5%;
+    background-color: #EC5854;
+}
+
+#nijikaColorBox{
+    position: absolute;
+    left: 5%;
+    background-color: #F5CE5D;
+}
+
+#ryoColorBox{
+    position: absolute;
+    right:32.5%;
+    background-color: #3661AB;
+}
+
+#bochiColorBox{
+    position: absolute;
+    right: 5%;
+    background-color: #FBAAB5;
+}
+ */
+
+
+.arrow-left {
+    z-index: 114;
+    position: absolute;
+    left: 50px;
+}
+
+.arrow-left img {
+    width: 70px;
+}
+
+.arrow-left img:hover {
+    cursor: pointer;
+}
+
+.arrow-right {
+    z-index: 114;
+    position: absolute;
+    right: 50px;
+}
+
+.arrow-right img {
+    width: 70px;
+}
+
+.arrow-right img:hover {
+    cursor: pointer;
+}
